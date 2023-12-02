@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering and Delivering System</title>
+    <link rel="stylesheet" href="code.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: rgb(244, 187, 111);
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2px;
+            background-color:rgb(244, 187, 111);
+            color:black;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        #slideshow {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        #slideshow img {
+            display: none;
+            width: 100%;
+        }
+
+       
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+        }
+
+        button {
+            background-color: rgb(244, 187, 111);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(244, 187, 111);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Food Ordering and Delivering system</h1>
+        <p>We won't let you stay hungry!!!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">MENU</a>
+        
+        <a href="#ideas">Share Your Feedback</a>
+        <a href="#login">Login</a>
+    </nav>
+
+</section>
+<section id="about">
+   <h2>We are your one stop destination for tasty and healthy food<br><br>Don't wait order fast.....</h2>
+   <img src="https://tse3.mm.bing.net/th?id=OIP.YXQYNYbazmKBkskg7qJLMgHaEK&pid=Api&P=0&h=220">
+   <img src="https://tse4.mm.bing.net/th?id=OIP.QnFpzPxzbY8b1cLrjO5mtAHaEK&pid=Api&P=0&h=220">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.6SdiXyZCiLyyQRQull49zgAAAA&pid=Api&P=0&h=220">
+
+</section>
+
+
+    <section class="menu" id="menu">
+        <h2>MENU</h2>
+        <article class="item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.9Xz9Mc14EJQq8kCuMyLAeQHaEK&pid=Api&P=0&h=220" alt="Food Item 1">
+            
+            <p>CHOLE BHATURE     <br>    PRICE:250 </p>
+            <button>Add to Cart</button>
+
+            <hr>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.fBFTAgIJAceQ4b0SWTMxxAHaE8&pid=Api&P=0&h=220" alt="Food Item 1">
+            
+            <p>KADHAYI PANEER              <br>                             PRICE:220 </p>
+            <button>Add to Cart</button><hr>
+
+            <img src="https://tse4.mm.bing.net/th?id=OIP.H07SGPpx-swRy0WfmnDIdwHaHa&pid=Api&P=0&h=220" alt="Food Item 1">
+            
+            <p>BURGER          <br>                             PRICE:60 </p>
+            <button>Add to Cart</button><hr>
+
+            <img src="https://tse2.mm.bing.net/th?id=OIP.hsYaSa6S9XKPBLaxeCDoKAHaFj&pid=Api&P=0&h=220" alt="Food Item 1">
+            
+            <p>MOMOS         <br>                             PRICE:120</p>
+            <button>Add to Cart</button><hr>
+
+            <img src="https://tse4.mm.bing.net/th?id=OIP.unR5u5HDeo2_nlJ0SDNS4gHaLH&pid=Api&P=0&h=220" alt="Food Item 1">
+           
+            <p>NOODLES        <br>                             PRICE:90</p>
+            <button>Add to Cart</button><hr>
+
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HOrYpSqerIfTF9py1APdaQHaJU&pid=Api&P=0&h=220" alt="Food Item 1">
+            
+            <p>FRENCH FRIES         <br>                             PRICE:50 </p>
+            <button>Add to Cart</button><hr>
+
+            <img src="https://tse3.mm.bing.net/th?id=OIP.kZxuNqyzfnUQ9crRJ5LsLQHaFj&pid=Api&P=0&h=220" alt="Food Item 1">
+          
+            <p>MANCHURIAN RICE         <br>                             PRICE:60 </p>
+            <button>Add to Cart</button><hr>
+            
+            
+            
+        </article>
+        
+    </section>
+
+
+    
+    
+
+    <section id="ideas">
+        <h2>Give Us Your Feedback</h2>
+      
+        <form id="ideasForm">
+            <label for="idea">How was your experience with us?</label>
+            <textarea id="idea" name="idea" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Food ordering Website</p>
+    </footer>
+
+    <script>
+         alert("Please login first")
+    </script>
+    <div class="container">
+        <form id="login">
+            <p>LOGIN</p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Submit</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
